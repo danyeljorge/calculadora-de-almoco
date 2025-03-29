@@ -130,6 +130,10 @@ main {
         text-align: center;
     }
 
+    .conteinerPrincipal {
+        height: 500px;
+    }
+
     #resultado {
 
         
