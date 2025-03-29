@@ -1,0 +1,144 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: verdana, sans-serif;
+}
+
+
+body {
+    background: #f4f4f4;
+    color: #333;
+    font-size: 16px;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden ;
+}
+
+main {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 200px;
+    margin-bottom: 60px;
+}
+
+.conteinerPrincipal {
+    padding-top: 50px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+}
+
+#saida {
+    width: 250px;
+    height: 30px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border: none;
+    font-size: 2rem;
+    text-align: center;
+    color: #0F88FF;
+    font-weight: bold;
+    outline: none;
+}
+
+#tempoAlmoco {
+
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border: none;
+    font-size: 1rem;
+    text-align: center;
+    color: #0F88FF !important;
+    font-weight: bold;
+    outline: none;
+}
+
+.btnCalc {
+    background: #333;
+    color: #fff;
+    width: 250px;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btnCalc:hover {
+    background-color: #33B6E2;
+}
+
+#resultado{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.rodape {
+    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+    height: auto;
+    
+}
+
+.rodape img {
+ 
+ height: 40px;
+}
+
+.links a {
+    padding-left: 20px;
+    font-size: 25px;
+    color: #33B6E2;
+    transition: 0.3s;
+}
+
+.links a:hover {
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    main {
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main h1 {
+        text-align: center;
+    }
+
+    #resultado {
+
+        
+        color: #0F88FF;
+        padding: 5px;
+        margin-bottom: 10px;
+        font-size: 25px;
+        text-align: center;
+    }
+}
