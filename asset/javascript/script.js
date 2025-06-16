@@ -1,6 +1,3 @@
-import { Analytics } from "@vercel/analytics/next";
-import { SpeedInsights } from "@vercel/speed-insights/next";
-
 function calcularVolta() {
   // pegar o horario de saida
 
